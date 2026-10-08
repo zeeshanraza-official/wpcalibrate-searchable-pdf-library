@@ -1,0 +1,20 @@
+/**
+ * Gutenberg block editor styling
+ */
+.wpcal-block-preview-wrapper {
+    border: 1px dashed #cbd5e1;
+    border-radius: 8px;
+    padding: 16px;
+    background: #f8fafc;
+}
+
+.wpcal-block-placeholder {
+    padding: 24px;
+    text-align: center;
+    color: #475569;
+}
+
+.wpcal-block-placeholder h4 {
+    margin-bottom: 8px;
+    color: #0f172a;
+}

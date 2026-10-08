@@ -1,0 +1,42 @@
+# Secrets & Credentials
+ftp-config.json
+scripts/ftp_config.json
+.env
+.env.*
+
+# AI Instructions, Project Memory & Planning (Strictly excluded)
+.agents/
+.claude/
+AGENTS.md
+CLAUDE.md
+PROJECT_MEMORY.md
+TROUBLESHOOTING.md
+CHANGELOG_AI.md
+TODO_AI.md
+docs/
+
+# Build Tools, Packaging Scripts & Test Runners
+scripts/
+scratch/
+tests/
+phpunit.xml
+.phpunit.cache/
+composer.phar
+wpcalibrate-searchable-pdf-library/
+
+# Archives & Temporary files
+*.zip
+*.log
+wpcalibrate-searchable-pdf-library-*.zip
+wpcalibrate-searchable-pdf-library.zip
+
+# Vendor Dependencies (packaged into GitHub release zip, managed by composer)
+vendor/
+
+# System & Editor
+node_modules/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

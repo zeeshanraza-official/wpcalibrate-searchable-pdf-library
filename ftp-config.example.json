@@ -1,0 +1,9 @@
+{
+  "host": "ftp.example.com",
+  "port": 21,
+  "user": "username",
+  "password": "password",
+  "ssl": false,
+  "timeout": 30,
+  "remote_path": "/wp-content/plugins/wpcalibrate-searchable-pdf-library/"
+}

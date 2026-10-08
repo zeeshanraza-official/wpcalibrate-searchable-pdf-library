@@ -1,0 +1,383 @@
+/**
+ * WPCalibrate Searchable PDF Library - Admin Styles
+ */
+
+.wpcal-admin-wrap {
+    margin: 20px 20px 0 2px;
+    font-family: inherit;
+}
+
+/* Header */
+.wpcal-admin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background: #ffffff;
+    border: 1px solid #c3c4c7;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.wpcal-header-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.wpcal-brand-logo {
+    display: block;
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.wpcal-brand-icon {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    color: #0284c7;
+}
+
+.wpcal-header-title {
+    margin: 0 !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #1e293b;
+    line-height: 1.2;
+}
+
+.wpcal-header-subtitle {
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* Tab Navigation */
+.wpcal-nav-tabs {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c3c4c7;
+}
+
+.wpcal-tab-content {
+    background: transparent;
+}
+
+/* Dashboard Grid & Metric Cards */
+.wpcal-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.wpcal-metric-card {
+    background: #ffffff;
+    border: 1px solid #c3c4c7;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.wpcal-metric-label {
+    font-size: 12px;
+    color: #64748b;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.wpcal-metric-val {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.text-success { color: #16a34a !important; }
+.text-info { color: #0284c7 !important; }
+.text-danger { color: #dc2626 !important; }
+.text-warning { color: #d97706 !important; }
+
+/* Admin Cards */
+.wpcal-admin-card {
+    background: #ffffff;
+    border: 1px solid #c3c4c7;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.wpcal-admin-card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #0f172a;
+}
+
+.wpcal-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 900px) {
+    .wpcal-two-col {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Badges */
+.wpcal-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.wpcal-badge-success { background: #dcfce7; color: #15803d; }
+.wpcal-badge-info { background: #e0f2fe; color: #0369a1; }
+.wpcal-badge-warning { background: #fef3c7; color: #b45309; }
+.wpcal-badge-attention { background: #ffedd5; color: #c2410c; }
+.wpcal-badge-danger { background: #fee2e2; color: #b91c1c; }
+.wpcal-badge-neutral { background: #f1f5f9; color: #475569; }
+
+/* Attachment Preview in metabox */
+.wpcal-attachment-preview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-top: 8px;
+}
+
+.wpcal-preview-file {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.wpcal-admin-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.wpcal-tool-block {
+    padding: 4px 0;
+}
+
+.wpcal-tool-block h4 {
+    margin-bottom: 6px;
+}
+
+/* Sidebar Admin Menu Icon sizing safeguard */
+#adminmenu #toplevel_page_wpcalibrate-menu .wp-menu-image,
+#adminmenu .toplevel_page_wpcalibrate-menu .wp-menu-image,
+#adminmenu #toplevel_page_wpcalibrate .wp-menu-image,
+#adminmenu .toplevel_page_wpcalibrate .wp-menu-image {
+    background-size: 20px 20px !important;
+    background-repeat: no-repeat !important;
+    background-position: center 7px !important;
+}
+
+#adminmenu #toplevel_page_wpcalibrate-menu .wp-menu-image img,
+#adminmenu .toplevel_page_wpcalibrate-menu .wp-menu-image img,
+#adminmenu #toplevel_page_wpcalibrate .wp-menu-image img,
+#adminmenu .toplevel_page_wpcalibrate .wp-menu-image img {
+    width: 20px !important;
+    height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+    padding: 7px 0 0 !important;
+    box-sizing: content-box !important;
+    opacity: 0.7 !important;
+    transition: opacity 0.15s ease-in-out !important;
+}
+
+#adminmenu #toplevel_page_wpcalibrate-menu:hover .wp-menu-image img,
+#adminmenu .toplevel_page_wpcalibrate-menu:hover .wp-menu-image img,
+#adminmenu #toplevel_page_wpcalibrate:hover .wp-menu-image img,
+#adminmenu .toplevel_page_wpcalibrate:hover .wp-menu-image img,
+#adminmenu #toplevel_page_wpcalibrate-menu.wp-has-current-submenu .wp-menu-image img,
+#adminmenu .toplevel_page_wpcalibrate-menu.wp-has-current-submenu .wp-menu-image img,
+#adminmenu #toplevel_page_wpcalibrate-menu.current .wp-menu-image img,
+#adminmenu .toplevel_page_wpcalibrate-menu.current .wp-menu-image img,
+#adminmenu #toplevel_page_wpcalibrate.wp-has-current-submenu .wp-menu-image img,
+#adminmenu .toplevel_page_wpcalibrate.current .wp-menu-image img {
+    opacity: 1 !important;
+}
+
+/* Overview Tab Styling */
+.wpcal-overview-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.wpcal-overview-hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border-radius: 12px;
+    padding: 28px 32px;
+    color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.wpcal-overview-hero h2 {
+    color: #ffffff !important;
+    font-size: 24px !important;
+    margin: 0 0 10px 0 !important;
+    font-weight: 700 !important;
+}
+
+.wpcal-overview-hero p {
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 0 18px 0;
+    max-width: 850px;
+}
+
+.wpcal-hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.wpcal-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #f1f5f9;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.wpcal-section-title {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    color: #0f172a !important;
+    margin: 0 0 14px 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Workflow Steps Grid */
+.wpcal-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 16px;
+}
+
+.wpcal-step-card {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 18px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.wpcal-step-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #0284c7;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.wpcal-step-card h3 {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #1e293b !important;
+    margin: 0 0 8px 0 !important;
+}
+
+.wpcal-step-card p {
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+    flex-grow: 1;
+}
+
+/* Feature & Architecture Grid */
+.wpcal-methods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+}
+
+.wpcal-method-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid #0284c7;
+    border-radius: 8px;
+    padding: 16px 18px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.wpcal-method-card h3 {
+    font-size: 14px !important;
+    margin: 0 0 8px 0 !important;
+    color: #0f172a !important;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.wpcal-method-card p {
+    color: #475569;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Code & Shortcode Reference Box */
+.wpcal-code-box {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 18px 20px;
+}
+
+.wpcal-code-snippet {
+    display: inline-block;
+    background: #1e293b;
+    color: #38bdf8;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.wpcal-quick-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 6px;
+}
+

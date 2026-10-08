@@ -1,0 +1,112 @@
+# Copyright (C) 2026 WPCalibrate
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPCalibrate Searchable PDF Library 1.0.0\n"
+"Report-Msgid-Bugs-To: support@wpcalibrate.com\n"
+"POT-Creation-Date: 2026-10-08 13:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WPCalibrate <support@wpcalibrate.com>\n"
+"Language-Team: WPCalibrate <support@wpcalibrate.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wpcalibrate-searchable-pdf-library\n"
+
+#: wpcalibrate-searchable-pdf-library.php:39
+msgid "WPCalibrate Searchable PDF Library:"
+msgstr ""
+
+#: wpcalibrate-searchable-pdf-library.php:42
+msgid "requires PHP %s or higher. Your server is currently running PHP %s."
+msgstr ""
+
+#: src/Admin/MenuManager.php:84
+msgid "Searchable PDF Library"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:143
+msgid "Dashboard"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:144
+msgid "Documents"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:145
+msgid "Categories"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:146
+msgid "Custom Fields"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:147
+msgid "Search & Display"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:148
+msgid "Indexing"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:149
+msgid "Access Control"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:150
+msgid "License"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:151
+msgid "Tools"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:152
+msgid "Support"
+msgstr ""
+
+#: src/Documents/DocumentPostType.php:57
+msgid "PDF Documents"
+msgstr ""
+
+#: src/Documents/DocumentPostType.php:58
+msgid "PDF Document"
+msgstr ""
+
+#: src/Documents/DocumentPostType.php:61
+msgid "Add New PDF Document"
+msgstr ""
+
+#: src/Documents/DocumentTaxonomies.php:33
+msgid "PDF Categories"
+msgstr ""
+
+#: src/Documents/DocumentTaxonomies.php:67
+msgid "PDF Tags"
+msgstr ""
+
+#: src/Extraction/LocalPdfParser.php:82
+msgid "Little or no searchable text detected. This PDF may require OCR."
+msgstr ""
+
+#: src/Frontend/FrontendRenderer.php:142
+msgid "Search documents by title, content, or metadata"
+msgstr ""
+
+#: src/Frontend/FrontendRenderer.php:149
+msgid "Search PDF text, title, author, topics..."
+msgstr ""
+
+#: src/Frontend/FrontendRenderer.php:195
+msgid "documents found"
+msgstr ""
+
+#: src/Frontend/FrontendRenderer.php:204
+msgid "No documents found matching your search criteria."
+msgstr ""
+
+#: src/Frontend/FrontendRenderer.php:273
+msgid "Close PDF viewer"
+msgstr ""

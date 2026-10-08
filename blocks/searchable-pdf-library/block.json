@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpcalibrate/searchable-pdf-library",
+  "version": "1.0.0",
+  "title": "Searchable PDF Library",
+  "category": "widgets",
+  "icon": "media-document",
+  "description": "Full-text searchable PDF document library with filters, live search, and embedded viewer.",
+  "keywords": [
+    "pdf",
+    "document",
+    "search",
+    "wpcalibrate",
+    "library"
+  ],
+  "textdomain": "wpcalibrate-searchable-pdf-library",
+  "attributes": {
+    "layout": {
+      "type": "string",
+      "default": "grid"
+    },
+    "per_page": {
+      "type": "number",
+      "default": 12
+    },
+    "show_search": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_filters": {
+      "type": "boolean",
+      "default": true
+    },
+    "category": {
+      "type": "string",
+      "default": ""
+    },
+    "tag": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}
